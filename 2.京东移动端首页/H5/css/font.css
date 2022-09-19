@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "iconfont"; /* Project id  */
+    src: url('../fonts/font_0z7fwvpc727g/iconfont.ttf?t=1663479523553') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gouwuchekong:before {
+    content: "\f0179";
+}
+
+.icon-shouye:before {
+    content: "\e6cb";
+}
+
+.icon-shouye1:before {
+    content: "\e615";
+}
+
+.icon-cancel-1-copy:before {
+    content: "\e61a";
+}
+
+.icon-typecar100:before {
+    content: "\e625";
+}
+
+.icon-sousuo:before {
+    content: "\e86e";
+}
+
+.icon-youjiantou:before {
+    content: "\e658";
+}
+
+.icon-zhiding:before {
+    content: "\e61c";
+}
+
+.icon-fenlei:before {
+    content: "\e648";
+}
+
+.icon-jingdong:before {
+    content: "\e612";
+}
+
+.icon-pay-jingdong:before {
+    content: "\e8dd";
+}
+
+.icon-xiajiang:before {
+    content: "\e62f";
+}
+
+.icon-zhengque:before {
+    content: "\ec6b";
+}
+
+/*第一个叉叉图标*/
+.app ul li:first-child::before{
+    content: "\e61a";
+    font-family: iconfont;
+    font-size:12px;
+    color: #A3A3A3;
+}
+
+/*搜索栏左侧分类*/
+.search-btn::after{
+    content: "\e648";
+    font-family: iconfont;
+    color: white;
+    font-size: 30px;
+}
+/*搜索框内*/
+.search-put .search-icon::before{
+    float: left;
+    content: "\e612";
+    font-family: iconfont;
+    color: #E93B3D;
+    line-height: 30px;
+    margin-left:15px;
+}
+/*底部*/
+.fo-bo ul li:nth-of-type(1) span:first-child::before{
+    content: "\e8dd";
+    font-family: iconfont;
+    color: #FB344D;
+    font-size: 20px;
+}
+.fo-bo ul li:nth-of-type(2) span:first-child::before{
+    content: "\e648";
+    font-family: iconfont;
+    color: #FB344D;
+    font-size: 20px;
+}
+.fo-bo ul li:nth-of-type(3) span:first-child::before{
+    content: "\e62f";
+    font-family: iconfont;
+    color: #FB344D;
+    font-size: 20px;
+}
+.fo-bo ul li:nth-of-type(4) span:first-child::before{
+    content: "\f0179";
+    font-family: iconfont;
+    color: #FB344D;
+    font-size: 20px;
+}
+.fo-bo ul li:nth-of-type(5) span:first-child::before{
+    content: "\e615";
+    font-family: iconfont;
+    color: #FB344D;
+    font-size: 20px;
+}
