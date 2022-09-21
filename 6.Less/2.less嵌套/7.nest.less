@@ -1,0 +1,17 @@
+@p-color:pink;
+@grn-color:green;
+header{
+  width: 200px;
+  height: 200px;
+  background-color: @p-color;
+  a{
+    color: @grn-color;
+    &:hover{
+      color: #1d91ee;
+    }
+    &::before{
+      content: "";
+    }
+  }
+}
+//less嵌套子元素样式直接写在父元素里面就好了

@@ -1,0 +1,10 @@
+div{
+    width: 100%;
+    height: 100%;
+}
+div:nth-child(1){
+    background-color: #dada00;
+}
+div:nth-child(2){
+    background-color: #948bff;
+}
