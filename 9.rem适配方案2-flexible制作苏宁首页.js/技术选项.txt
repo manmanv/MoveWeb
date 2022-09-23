@@ -1,0 +1,14 @@
+1.技术选型：
+	方案：采取单独制作移动页面方案
+	技术：布局采取rem适配布局2-flexible.js+rem
+	设计图：720px
+2.引入flexible.js文件
+3.body样式
+body{
+    min-width: 320px;
+    width: 15rem;
+    margin: 0 auto;
+    //line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #f2f2f2;
+}
